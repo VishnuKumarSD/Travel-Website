@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="swiper-bundle.min.css">  <!--slider css Link swiper -->
+
+    <link rel="stylesheet" href="./web1.css">
+    <title>Make my trip</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <section>  <!--header section-->
+        <div class="header">
+            <img  src="./images/make-my-trip-high-resolution-logo-transparent (1).png" alt="logoOfApp" class="logo">
+            <div class="inr-and-country">
+                <a href=""><i class="fa-solid fa-indian-rupee-sign inr-icon" style="margin-right:10px";></i></a>
+                <a href=""><i class="fa-solid fa-globe country-icon "></i></a>
+            </div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="login-create">
+                <profileicon><a href=""><i class="fa-solid fa-user" style="color: #ff0505; font-size: 30px;margin: 8px 10px;"></i></a></profileicon>
+                <topdown style="margin: 8px 10px ;"class="topdown">
+                <h6><a href="">Login</a></h6> 
+                <h6><a href="">Create Account</a></h6>
+                </topdown>
+            </div>
+            <div class="hamburger"><i class="fa-solid fa-bars-staggered fa-lg" style="color: #f5f5f5;"></i></div>
+        </div>
+    </section>
+
+    <!--Home section-->
+    <section class="home">
+          
+            <div class="ham-on-3links">   <!--display when hamburger gets clicked-->
+                <ul class="navbar">
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Guide</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+       <video src="./videos/pexels-mikhail-nilov-8320073 (1440p).mp4" muted loop autoplay></video> 
+
+        <div class="home-title">
+            <h6>Discover the World</h6>
+        </div>
+
+        <div class="where-when-button">
+           
+            <div class="where">
+                <label class="map-icon__label" for="myInput"><i class="fa-solid fa-map-location-dot" style="color: #ffffffc4; font-size: 30px; padding: 5px 40px;"></i></label>
+                <div class="input-group">
+                    <input type="text" placeholder="where you want to go?" id="myInput" class="input-group__input"  />
+                </div>
+            </div>
+            <div class="when">
+                <label class="map-icon__label" for="myInput"><i class="fa-regular fa-calendar-check" style="color: #ffffffc4; font-size: 30px; padding: 5px 40px;"></i></label>
+                <div class="input-group">
+                    <input type="text" placeholder="when you want to go?" id="myInput" class="input-group__input"  />
+                </div>
+            </div>
+ 
+            <button  type="submit"  class="enterbutton"><i class="fa-solid fa-arrow-right" style="color: #ffffff; font-size:25px;margin: 4px 12px;"></i></button>
+        </div>
+    </section>
+
+     <!--continents and about guide section-->
+     
+    <section class="continents-partofpage">
+        <div class="continents">
+            <div class="data-each"> <div class="each"><img src="images/asia.png" alt=""></div> <h4>Asia</h4> </div> 
+            <div class="data-each"> <div class="each"><img src="images/africa.png" alt=""></div> <h4>Africa</h4> </div>
+            <div class="data-each"> <div class="each"><img src="images/europe.png" alt=""></div> <h4>Europe</h4> </div> 
+            <div class="data-each"> <div class="each"><img src="images/america.png" alt=""></div> <h4>America</h4> </div> 
+            <div class="data-each"> <div class="each"><img src="images/antartica.png" alt=""></div> <h4>Antartica</h4> </div> 
+        </div>
+        <div class="guide">
+
+        </div>
+
+   </section>
+
+   <section class="offers" style="background-color: #fff;">
+         <div class="offer-sets">
+
+             <div class="each-off" id="color-1">  
+                  <div class="content"> <div class="heading">Special <span style="color: #ff1e1e; font-size: larger; font-family: cursive;">50%</span> offer</div> <p>Let's explore the world</p>  <a href="">Learn More</a>   </div> 
+                  <img src="images/off1img.png" alt="">
+            </div>
+              
+            <div class="each-off" id="color-2">  
+                <div class="content">   <div class="heading">Get <span  style="color: #ff1e1e; font-size: larger; font-family: cursive;">20%</span> offer </div> <p>Pack up your bags</p>  <a href="">Learn More</a>   </div> 
+                <img src="images/offer2img.png" alt="">   
+            </div>
+       
+         </div>
+   </section>
+
+
+   <section class="top-destinations" style="background-color: #fff;">
+       <div class="container">
+           <h2>Top Destinations</h2>
+            <h4 id="flat45">Grab Flat 45% Off! Use Code MMTPRICEDROP</h4>
+           <div class="all-box">
+
+               <div class="box">
+                   <img src="./images/tokyo.png" alt="">
+                   <div class="overlay"> 
+                        <h4>Tokyo</h4> 
+                        <p>A space-separated list of the classes of the element. Classes allows CSS and JavaScript to  </p>
+                         <a href="">Read more</a>                 
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="./images/newyork.png" alt="">
+                    <div class="overlay"> 
+                         <h4>New York</h4> 
+                         <p>A space-separated list of the classes of the element. Classes allows CSS and JavaScript to </p>
+                          <a href="">Read more</a>                 
+                     </div>
+                 </div>
+
+                 <div class="box">
+                    <img src="./images/maldives.png" alt="">
+                    <div class="overlay"> 
+                         <h4>Maldives</h4> 
+                         <p>A space-separated list of the classes of the element. Classes allows CSS and JavaScript to </p>
+                          <a href="">Read more</a>                 
+                     </div>
+                 </div>
+
+                 <div class="box">
+                    <img src="images/venice.png" alt="">
+                    <div class="overlay"> 
+                         <h4>Venice</h4> 
+                         <p>A space-separated list of the classes of the element. Classes allows CSS and JavaScript to </p>
+                          <a href="">Read more</a>                 
+                     </div>
+                 </div>
+
+            </div>
+
+         </div>
+    </div>
+
+   </section>
+
+   <section class="our-travelers">
+        <div class="testimonial">
+              <div class="head">Our travelers</div>
+              <div class="quote">"Fill your life with experience not with things"</div>
+              <div class="tbtn"><a href="#">View all</a></div>
+              <div class="timg1"></div>
+              <div class="timg1sub"></div>
+              <div class="timg2"></div>
+              <div class="timg3"></div>
+              <div class="timg4"></div>
+              <div class="timg5"></div>
+              <div class="endquote">"Explore the world with our exciting packages and offers"</div>
+        </div>
+   </section>
+
+    <section>
+      
+         <div class="india-container swiper">
+               <h1 class="explore-ind">Explore India</h1>
+            <div class="slide-container swiper-wrapper">
+                <div class="card-wrapper ">
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/kerala.png" alt=""></div>   <div class="details"><h2>Kerala</h2><p>Explore Kerala's serene backwaters and lush landscapes.</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/hydrabad.png" alt=""></div> <div class="details"><h2>Hydrabad</h2><p>Discover Bangalore's dynamic blend of innovation and tradition</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/banglore.png" alt=""></div> <div class="details"><h2>Banglore</h2><p>Experience Hyderabad's rich heritage and modern charm</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/goa.png" alt=""></div>      <div class="details"><h2>Goa</h2><p>Escape to Goa's sun-kissed beaches and vibrant culture</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/kerala.png" alt=""></div>   <div class="details"><h2>Kerala</h2><p>Explore Kerala's serene backwaters and lush landscapes.</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/hydrabad.png" alt=""></div> <div class="details"><h2>Hydrabad</h2><p>Discover Bangalore's dynamic blend of innovation and tradition</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/banglore.png" alt=""></div> <div class="details"><h2>Banglore</h2><p>Experience Hyderabad's rich heritage and modern charm</p></div></div>
+                    <div class="card swiper-slide">  <div class="img-box"><img src="./images/goa.png" alt=""></div>      <div class="details"><h2>Goa</h2><p>Escape to Goa's sun-kissed beaches and vibrant culture</p></div></div>
+
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+     
+            </div>
+         </div>
+
+    </section>
+
+    <section>
+
+        <div class="europe-container">
+            <div class="eurimg-container">
+                <img src="./images/paris.png" alt=""> 
+             <div class="tr-box-selectbox">
+                <div class="tr-box">Europe Group Tour</div>
+                <div class="selectbox">
+                    <div class="card"> <div class="img-box"><img src="./images/europe1.png" alt=""></div> <div class="amount"><p>starting at 1,22,000</p></div></div>
+                    <div class="card"> <div class="img-box"><img src="./images/europe2.png" alt=""></div> <div class="amount"><p>starting at 1,22,000</p></div></div>
+                    <div class="card"> <div class="img-box"><img src="./images/europe3.png" alt=""></div> <div class="amount"><p>starting at 1,22,000</p></div></div>
+               </div>
+             </div>
+             
+          </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <div class="section1"><a href="">Top deals</a><br><a href="">Destinations</a> <br><a href="">Why travel with Make my trip?</a><br><a href="">Frequently asked questions </a><br> <a href="">Brocheres</a><br><a href="">Travel Blog</a><br><a href="">Agent Poral</a></div>
+            <div class="section2">Contact Us <br> <div style="padding-top: 10px;"><i class="fa-solid fa-phone" style="color: #ffffff;"></i> 1300 230 234 </div><br><div><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> makemytrip@gmail.com </div><br> <div><i class="fa-brands fa-facebook" style="color: #2265d8;margin-right: 5px;"></i> <i class="fa-brands fa-instagram" style="color: #ffffff;"></i></div></div>
+            <div class="section3">
+                <div class="descrip"><div class="heading">Save up to $75pp on your first tour</div> <p>When you subscribe for the latest news,deals and destinations </p></div>
+                <div class="enterdetails">*Terms and Conditions 
+                    <div class="input">  
+                  <div class="form__group">
+                    <input type="text" class="form__input" id="name" placeholder="Full name" required="" />
+                    <label for="name" class="form__label">Full Name</label>
+                  </div>
+                  <div class="form__group">
+                    <input type="email" class="form__input" id="email" placeholder="E-mail" required="" />
+                    <label for="e-mail" class="form__label">E-mail</label>
+                  </div>
+                  <div class="checkbox_section">
+                    <input type="checkbox" id="checkbox">
+                    <label >By checking this box, you accept our privacy policy</label>
+                  </div>
+              </div>
+               </div>
+                <button  type="submit"  class="enterbutton"><i class="fa-solid fa-arrow-right" style="color: #ffffff; font-size:25px;margin: 4px 12px;"></i></button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <link rel="stylesheet" href="swiper-bundle.min.js">  <!-- js Link swiper  -->
+     
+    <script src="web1.js"></script>
+</body>
+</html>
